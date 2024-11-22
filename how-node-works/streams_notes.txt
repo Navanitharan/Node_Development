@@ -1,0 +1,19 @@
+streams are used to process(read and write) the data piece by piece(chunks),
+without completing the whole read or write operation,
+and therefore without keeping all the data in memory. 
+
+we will read the piece of data and process somthing with it and freeup the memory
+and repeate the process think of video streaming platforms like youtube and netflix work like this
+they process the video into chunks so that we can watch the video before the whole video is downloaded
+
+so that the streams are perfect to handling the large volume of data for example video,
+
+more efficient for data processing in terms of memory and time because no need to kell all data in memory and 
+we don't need to wait until the all data is available.
+
+In node.js there are four types of streams
+-Readable streams
+-Writeable streams
+-Duplex streams
+-Transform streams
+
